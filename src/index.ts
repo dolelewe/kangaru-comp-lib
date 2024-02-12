@@ -1,1 +1,1 @@
-export {Main as KangarUSDK} from "./FrontFacing"
+export * from "./FrontFacing"

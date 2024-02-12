@@ -1,1 +1,1 @@
-export {Main} from "./src"
+export * from "./src"

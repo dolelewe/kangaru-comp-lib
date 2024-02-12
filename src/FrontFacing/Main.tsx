@@ -20,7 +20,7 @@ import App from "./App";
 import ExternalLinkContextProvider from "../context/ExternalLinkContex";
 import DefaultContextProvider from "../context/DefaultContext";
 
-export const Main = ()=>{
+export const KangarUSDK = ()=>{
 
     return (
        <DefaultContextProvider>
@@ -31,3 +31,5 @@ export const Main = ()=>{
     )
 
 }
+
+export default KangarUSDK;
