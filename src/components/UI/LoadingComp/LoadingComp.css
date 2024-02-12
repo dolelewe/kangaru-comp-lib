@@ -1,4 +1,4 @@
-.order_uls{
+.lc_order_uls{
     height: 167px;
     width: 100%;
     margin-top: 8px;
@@ -11,7 +11,7 @@
     justify-content: center;
 }
 
-.action_button{
+.lc_action_button{
     background-color: var(--kangar-blue);
     color: white;
     border: none;
@@ -26,11 +26,11 @@
     align-items: center;
     justify-content: center;
 }
-.action_button:hover{
+.lc_action_button:hover{
     cursor: pointer;
 }
 
-.load_page{
+.lc_load_page{
     position: absolute;
     top: 0;
     bottom: 0;

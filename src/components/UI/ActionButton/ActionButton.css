@@ -1,4 +1,4 @@
-.action_button{
+.ab_action_button{
     background-color: var(--kangar-blue);
     color: white;
     border: none;
@@ -8,11 +8,11 @@
     font-family: Montserrat;
     margin: 24px 0;
 }
-.action_button:hover{
+.ab_action_button:hover{
     cursor: pointer;
 }
 
-.action_button:disabled{
+.ab_action_button:disabled{
     cursor: not-allowed;
     background-color: var(--kangar-fade);
     border: solid 1px var(--kangar-blue);

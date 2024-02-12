@@ -1,7 +1,7 @@
 import {useContext} from "react";
 import {ExternalLinkContext} from "../../../context/ExternalLinkContex";
 import ActionButton from "../../../components/UI/ActionButton/ActionButton";
-import style from "./ExternalApiForCard.module.css"
+import  "./ExternalApiForCard.css"
 import CardService from "../CardService";
 import {DefaultContext} from "../../../context/DefaultContext";
 
@@ -16,7 +16,7 @@ const ExternalApiForCard=()=>{
     }
     return (
         <div>
-            <iframe src={url.url} width={"100%"} height={"400px"} className={style.modal}></iframe>
+            <iframe src={url.url} width={"100%"} height={"400px"} className={"ea_modal"}></iframe>
             <ActionButton text={"Done"} type={"button"} clickEvent={processDone} validity={false}/>
         </div>
     )

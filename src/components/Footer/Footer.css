@@ -1,11 +1,11 @@
-.footer{
+.f_footer{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10px;
 }
 
-.footer_title{
+.f_footer_title{
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -15,7 +15,7 @@
 
 }
 
-.footer_div{
+.f_footer_div{
     display: flex;
     align-items: center;
     color: var(--union-blue);

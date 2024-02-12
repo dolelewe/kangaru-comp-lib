@@ -1,11 +1,11 @@
 
-import modal from "./IframeLoader.module.css"
+import "./IframeLoader.css"
 const IFrameLoader =(props:{url:string, toggle:()=>void})=>{
 
     return(
-        <div className={modal.modal}>
-            <div onClick={props.toggle} className={modal.overlay}> </div>
-            <div className={modal.modal_content}>
+        <div className={"ifl_modal"}>
+            <div onClick={props.toggle} className={"ifl_overlay"}> </div>
+            <div className={"ifl_modal_content"}>
                 <iframe src={props.url} width={"100%"} height={"100%"}/>
             </div>
         </div>

@@ -1,4 +1,4 @@
-import style from "./ActionButton.module.css"
+import "./ActionButton.css"
 const ActionButton=(props:{
     text:string,
     type:"submit"|"button",
@@ -9,7 +9,7 @@ const ActionButton=(props:{
         <button
             type={props.type}
             onClick={props.clickEvent}
-            className={style.action_button}
+            className={"ab_action_button"}
             disabled={props.validity}
         >
             {props.text}

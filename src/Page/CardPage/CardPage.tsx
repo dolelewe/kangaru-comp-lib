@@ -3,7 +3,7 @@ import {useState} from "react";
 import CardStage1 from "./CardStage1/CardStage1";
 import CardStage2 from "./CardStage2/CardStage2";
 import {LoadingPage} from "../../components/UI/LoadingComp/LoadingComp";
-import style from "./CardPage.module.css"
+import "./CardPage.css"
 const CardPage=()=>{
     const [stage, setStage] = useState(1);
     const [otpMessage, setOtpMessage] = useState<string>("")
@@ -14,7 +14,7 @@ const CardPage=()=>{
         setStage(2)
     }
 
-    return (<div className={style.background}>
+    return (<div className={"cp_background"}>
         {(stage==1) && <CardStage1
             updateMessage={handleOtpMessage}
             loader={setLoading}

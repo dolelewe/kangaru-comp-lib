@@ -1,8 +1,8 @@
 import {ReactNode} from "react";
-import style from "./MainLayout.module.css"
+import "./MainLayout.css"
 const MainLayout=(props:{children:ReactNode})=>{
     return (
-        <div className={style.container}>
+        <div className={"ml_container"}>
             {props.children}
         </div>
     )

@@ -20,21 +20,23 @@
     "@types/react": "^18.2.55",
     "postcss": "^8.4.35",
     "react": "^18.2.0",
-    "react-loading": "^2.0.3",
     "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
     "react-router-dom": "^6.22.0",
     "rollup": "^4.10.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
     "storybook": "^7.6.14",
-    "typescript": "^5.3.3"
+    "typescript": "^5.3.3",
+    "axios": "^1.6.7"
   },
   "peerDependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-loading": "^2.0.3",
     "react-router-dom": "^6.22.0",
-    "react-loading": "^2.0.3"
+    "axios": "^1.6.7"
   },
   "scripts": {
     "storybook": "storybook dev -p 6006",

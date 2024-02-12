@@ -1,4 +1,4 @@
-import style from "../CardPage.module.css";
+import "../CardPage.css";
 import {useContext, useEffect, useState} from "react";
 import CardService from "../CardService";
 import {DefaultContext} from "../../../context/DefaultContext";
@@ -59,9 +59,9 @@ const CardStage2=(props:{otpMessage:string, loader:(status:boolean)=>void})=>{
 
     return (
         <div>
-            <h4 className={style.otp_head}>OTP Verification</h4>
-            <p className={style.otp_sub_text}>{props.otpMessage}</p>
-            <div className={style.otp_div}>
+            <h4 className={"cp_otp_head"}>OTP Verification</h4>
+            <p className={"cp_otp_sub_text"}>{props.otpMessage}</p>
+            <div className={"cp_otp_div"}>
                 {otp.map((value, index) => (
                     <input
                         type="text"
@@ -76,7 +76,7 @@ const CardStage2=(props:{otpMessage:string, loader:(status:boolean)=>void})=>{
             </div>
             {
                 !btnLoading &&
-                <button className={style.card_button}
+                <button className={"cp_card_button"}
                         type={"button"}
                         onClick={handleOtp}
                 >Done</button>

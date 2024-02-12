@@ -1,4 +1,4 @@
-import style from "../CardPage.module.css";
+import "../CardPage.css";
 import Icons from "../../../components/Icons";
 import ActionButton from "../../../components/UI/ActionButton/ActionButton";
 import CardService from "../CardService";
@@ -62,8 +62,8 @@ const CardStage1=(props:{
 
     <form onSubmit={handleSubmit}>
         <div>
-            <label className={style.card_label}>Card Number</label>
-            <div className={style.card_num}>
+            <label className={"cp_card_label"}>Card Number</label>
+            <div className={"cp_card_num"}>
                 <img src={Icons.masterCard}/>
                 <input name={"cardNumber"}
                        onChange={handleCardUpdate}
@@ -75,9 +75,9 @@ const CardStage1=(props:{
             </div>
         </div>
 
-        <div className={style.flex}>
-            <div className={style.inner_div}>
-                <label className={style.card_label}>Expiry Date</label>
+        <div className={"cp_flex"}>
+            <div className={"cp_inner_div"}>
+                <label className={"cp_card_label"}>Expiry Date</label>
                 <input name={"exp"}
                        type={"text"}
                        onChange={handleCardUpdate}
@@ -85,8 +85,8 @@ const CardStage1=(props:{
                        value={cardDetail.exp}
                 />
             </div>
-            <div className={style.inner_div}>
-                <label className={style.card_label}>CVV</label>
+            <div className={"cp_inner_div"}>
+                <label className={"cp_card_label"}>CVV</label>
                 <input name={"cvv"}
                        type={"text"}
                        onChange={handleCardUpdate}
@@ -96,8 +96,8 @@ const CardStage1=(props:{
             </div>
         </div>
 
-        {cardPaymentModel.suggested_auth === "PIN" && <div className={style.inner_div}>
-            <label className={style.card_label}>Enter your Card PIN</label>
+        {cardPaymentModel.suggested_auth === "PIN" && <div className={"cp_inner_div"}>
+            <label className={"cp_card_label"}>Enter your Card PIN</label>
             <input name={"pin"}
                    type={"text"}
                    onChange={handleCardUpdate}

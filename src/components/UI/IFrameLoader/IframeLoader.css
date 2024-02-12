@@ -1,5 +1,5 @@
-.modal,
-.overlay {
+.ifl_modal,
+.ifl_overlay {
     width: 100vw;
     height: 100vh;
     top: 0;
@@ -13,7 +13,7 @@
     background: rgba(9, 40, 217, 0.3);
 }
 
-.modal_content {
+.ifl_modal_content {
     position: absolute;
     top: 50%;
     left: 50%;
