@@ -1,0 +1,119 @@
+.background{
+    position: relative;
+}
+.card_label{
+    color: var(--kangar-bold-write);
+    font-weight: 600;
+    font-size: 12px;
+    margin-top: 12px;
+    display: block;
+}
+.card_num{
+    background-color: var(--kangar-fade);
+    display: flex;
+    padding: 12px;
+    border-radius: 4px;
+    gap: 18px;
+}
+
+.card_num > input{
+    color: var(--kangar-bold-write);
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    outline: none;
+    background-color: var(--kangar-fade);
+
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 12px
+}
+.inner_div{
+    width: 100%;
+}
+.inner_div > input{
+    width: 100%;
+    background-color: var(--kangar-fade);
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    padding: 12px;
+    font-size: 16px;
+    font-style: normal;
+    font-family: Montserrat;
+    color: var(--kangar-bold-write);
+}
+
+.card_button{
+    background-color: var(--kangar-blue);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    padding: 16px;
+    font-family: Montserrat;
+    margin: 24px 0;
+}
+.card_button:hover{
+    cursor: pointer;
+}
+
+.card_button:disabled{
+    cursor: not-allowed;
+}
+
+.otp_head{
+    color: var(--kangar-dark-blue);
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 80% */
+    text-align: center;
+    margin: 50px 0 16px 0;
+}
+
+.otp_sub_text{
+    color: var(--kangar-dark-blue);
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.otp_div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.otp_div > input {
+    width: 40px;
+    color: var(--kangar-dark-blue);
+    border: none;
+    outline: none;
+    align-self: center;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 100%;
+    text-align: center;
+    border-bottom: solid 2px var(--kangar-dark-blue)
+}
+
+.input_in{
+    border-bottom: solid 2px var(--kangar-dark-blue);
+}
+.input_out{
+    border-bottom: solid 2px var(--kangar-bold-write);
+}

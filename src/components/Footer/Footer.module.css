@@ -1,0 +1,27 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.footer_title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -2px;
+    color: var(--kangar-dark-blue);
+
+}
+
+.footer_div{
+    display: flex;
+    align-items: center;
+    color: var(--union-blue);
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+}

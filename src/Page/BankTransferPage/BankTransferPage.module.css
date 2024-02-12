@@ -1,0 +1,29 @@
+.bt_head{
+    color: #0E1437;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 40px auto 20px auto;
+    text-align: center;
+}
+
+.bt_inner_container{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--kangar-fade);
+    padding: 20px;
+}
+
+.bt_ac{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bt_ac > img{
+    cursor: pointer;
+}
