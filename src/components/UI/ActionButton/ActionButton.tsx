@@ -1,6 +1,6 @@
 import "./ActionButton.css"
 import React from "react";
-const ActionButton=(props:{
+export const ActionButton=(props:{
     text:string,
     type:"submit"|"button",
     clickEvent:()=>void,

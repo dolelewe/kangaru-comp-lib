@@ -1,5 +1,6 @@
 
 import "./App.css"
+import "./index.css"
 import {BrowserRouter} from "react-router-dom";
 import React, {useContext} from "react";
 import {DefaultContext, ExternalLinkContext} from "../context";
