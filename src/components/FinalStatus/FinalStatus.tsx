@@ -2,7 +2,7 @@ import Icons from "../Icons";
 import ActionButton from "../UI/ActionButton/ActionButton";
 import {useNavigate} from "react-router-dom"
 import "./FinalStatus.css"
-import {useContext} from "react";
+import React, {useContext} from "react";
 import {DefaultContext} from "../../context/DefaultContext";
 
 
@@ -17,11 +17,11 @@ const FinalStatus=()=>{
 }
 
 const Success=()=>{
-    const {successGif} = Icons;
+    const icon = Icons;
     return(
         <div>
             <div className={"fs_img_container"}>
-                <img src={successGif} alt={"success transaction"} className={"fs_img"}/>
+                <img src={icon.successGif} alt={"success transaction"} className={"fs_img"}/>
                 <h3 className={"fs_h3"}>Payment Successful</h3>
                 <p className={"fs_p"}>Your order has been confirmed and will be processed by the merchant</p>
             </div>

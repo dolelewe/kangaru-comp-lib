@@ -1,5 +1,5 @@
 import "../CardPage.css";
-import {useContext, useEffect, useState} from "react";
+import React,{useContext, useEffect, useState} from "react";
 import CardService from "../CardService";
 import {DefaultContext} from "../../../context/DefaultContext";
 import {LoadingButton} from "../../../components/UI/LoadingComp/LoadingComp";

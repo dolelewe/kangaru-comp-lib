@@ -19,6 +19,7 @@
 import App from "./App";
 import ExternalLinkContextProvider from "../context/ExternalLinkContex";
 import DefaultContextProvider from "../context/DefaultContext";
+import React from "react";
 
 export const KangarUSDK = ()=>{
 

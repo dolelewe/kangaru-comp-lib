@@ -4,6 +4,8 @@ import commonjs from "@rollup/plugin-commonjs";
 import typescript from "@rollup/plugin-typescript";
 import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
+import svgr from "@svgr/rollup";
+import image from "rollup-plugin-image"
 
 // This is required to read package.json file when
 // using Native ES modules in Node.js
@@ -34,7 +36,9 @@ export default [{
     typescript(),
     postcss({
       extensions: ['.css']
-    })
+    }),
+      svgr(),
+      image({limit: 500 * 1024})
   ]
 }, {
   input: 'lib/index.d.ts',

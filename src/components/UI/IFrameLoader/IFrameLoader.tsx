@@ -1,4 +1,4 @@
-
+import React from "react";
 import "./IframeLoader.css"
 const IFrameLoader =(props:{url:string, toggle:()=>void})=>{
 

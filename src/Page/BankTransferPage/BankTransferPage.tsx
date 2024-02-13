@@ -8,6 +8,7 @@ import {useContext, useEffect, useState} from "react";
 import BankTransferService from "./BankTransferService";
 import axiosCalls from "../../API/AxiosCalls";
 import {DefaultContext} from "../../context/DefaultContext";
+import React from "react";
 
 const BankTransferPage=()=>{
     const {state} = useContext(DefaultContext)

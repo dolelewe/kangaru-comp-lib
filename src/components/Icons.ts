@@ -6,11 +6,15 @@ import ussd from "../assets/ussd.svg";
 import bank from "../assets/bank.svg"
 import union from "../assets/union.svg"
 import success from "../assets/success.svg"
-import copy from "../assets/copy.svg"
-import successGif from "../assets/success.gif"
-import failedGif from "../assets/failed.gif"
+import copy from "../assets/copy.svg";
+import failedGif from "../assets/success.svg"
+import successGif from "../assets/success.svg"
+
+
 const Icons = {
 arrowDown, card, masterCard, transfer, ussd, bank, union, success, copy,successGif, failedGif
 }
 
 export default Icons;
+
+

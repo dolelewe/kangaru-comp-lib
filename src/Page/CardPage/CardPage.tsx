@@ -1,5 +1,5 @@
 
-import {useState} from "react";
+import React,{useState} from "react";
 import CardStage1 from "./CardStage1/CardStage1";
 import CardStage2 from "./CardStage2/CardStage2";
 import {LoadingPage} from "../../components/UI/LoadingComp/LoadingComp";

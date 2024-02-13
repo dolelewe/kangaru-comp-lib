@@ -4,6 +4,7 @@ import CardPage from "../../Page/CardPage/CardPage";
 import BankTransferPage from "../../Page/BankTransferPage/BankTransferPage";
 import {Routes,Route} from "react-router-dom";
 import PaymentOptions from "../PaymentOptions/PaymentOptions";
+import React from "react";
 const Router=()=>{
     return (
         <Routes>

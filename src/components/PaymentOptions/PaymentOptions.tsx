@@ -2,7 +2,8 @@ import "./PaymentOptions.css"
 import {useState} from "react";
 import Icons from "../Icons";
 import {OptionTypes, Options} from "../Options";
-import {useNavigate} from "react-router-dom"
+import {useNavigate} from "react-router-dom";
+import React from "react";
 
 const PaymentOptions=()=>{
     const navigate = useNavigate();

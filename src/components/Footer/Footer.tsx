@@ -1,5 +1,6 @@
 import "./Footer.css"
 import Icons from "../Icons";
+import React from "react";
 const Footer=()=>{
     const {union} = Icons;
     return (<footer className={"f_footer"}>

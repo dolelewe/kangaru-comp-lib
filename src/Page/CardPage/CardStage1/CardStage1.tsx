@@ -2,7 +2,7 @@ import "../CardPage.css";
 import Icons from "../../../components/Icons";
 import ActionButton from "../../../components/UI/ActionButton/ActionButton";
 import CardService from "../CardService";
-import {SyntheticEvent, useContext, useState} from "react";
+import React,{SyntheticEvent, useContext, useState} from "react";
 import {CardDetail, CardPaymentModel} from "../../../Model/Models";
 import {DefaultContext} from "../../../context/DefaultContext";
 import {LoadingButton} from "../../../components/UI/LoadingComp/LoadingComp";

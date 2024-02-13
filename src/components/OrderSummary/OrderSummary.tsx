@@ -1,5 +1,5 @@
 import "./OrderSummary.css"
-import {useContext} from "react";
+import React, {useContext} from "react";
 import {DefaultContext} from "../../context/DefaultContext";
 import {OrderSummaryLoading} from "../UI/LoadingComp/LoadingComp";
 

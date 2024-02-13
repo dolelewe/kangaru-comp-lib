@@ -1,11 +1,13 @@
 
 import "./App.css"
 import {BrowserRouter} from "react-router-dom";
-import {useContext} from "react";
+import React, {useContext} from "react";
 import {DefaultContext, ExternalLinkContext} from "../context";
 import OrderSummaryAndKangaruRoutes from "../components/OrderSummaryAndKangaruRoutes/OrderSummaryAndKangaruRoutes";
 import OrderSummaryAndFinalStatus from "../components/OrderSummaryAndFinalStatus/OrderSummaryAndFinalStatus";
 import ExternalApiForCard from "../Page/CardPage/ExternalApiForCard/ExternalApiForCard";
+import MainLayout from "../components/MainLayout/MainLayout";
+import Footer from "../components/Footer/Footer";
 
 
 function App() {

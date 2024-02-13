@@ -1,5 +1,6 @@
 import "./LoadingComp.css"
 import ReactLoading from 'react-loading';
+import React from "react";
 
 
 export const OrderSummaryLoading=()=>{

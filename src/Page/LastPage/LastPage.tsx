@@ -1,5 +1,5 @@
 import Icons from "../../components/Icons";
-
+import React from "react";
 const LastPage =()=>{
 
     return(
