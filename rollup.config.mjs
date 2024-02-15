@@ -6,6 +6,7 @@ import postcss from "rollup-plugin-postcss";
 import dts from "rollup-plugin-dts";
 import svgr from "@svgr/rollup";
 import image from "rollup-plugin-image"
+import copy from "rollup-plugin-copy";
 
 // This is required to read package.json file when
 // using Native ES modules in Node.js
@@ -38,7 +39,13 @@ export default [{
       extensions: ['.css']
     }),
       svgr(),
-      image({limit: 500 * 1024})
+      image({limit: 1500 * 1024}),
+    ,
+    copy({
+      targets:[
+        {src: 'src/assets/**/*', dest: 'lib/assets'}
+      ]
+    })
   ]
 }, {
   input: 'lib/index.d.ts',

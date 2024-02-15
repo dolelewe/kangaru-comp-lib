@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/dolelewe"
   },
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "A simple template for a custom React component library",
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.7",
@@ -26,6 +26,7 @@
     "react-loading": "^2.0.3",
     "react-router-dom": "^6.22.0",
     "rollup": "^4.10.0",
+    "rollup-plugin-copy": "^3.5.0",
     "rollup-plugin-dts": "^6.1.0",
     "rollup-plugin-image": "^1.0.2",
     "rollup-plugin-peer-deps-external": "^2.2.4",
