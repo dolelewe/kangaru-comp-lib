@@ -39,17 +39,11 @@ export default [{
       extensions: ['.css']
     }),
       svgr(),
-      image({limit: 1500 * 1024}),
-    ,
-    copy({
-      targets:[
-        {src: 'src/assets/**/*', dest: 'lib/assets'}
-      ]
-    })
+      image({limit: 1000000,}),
   ]
 }, {
   input: 'lib/index.d.ts',
   output: [{ file: 'lib/index.d.ts', format: 'es' }],
   plugins: [dts()],
-  external: [/\.css$/]
+  external: [/\.css$/,/\.svg$/]
 }];

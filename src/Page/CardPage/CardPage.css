@@ -29,6 +29,11 @@
 
 }
 
+.cp_card_img{
+    width: 12px;
+    height: 14px;
+}
+
 .cp_flex{
     display: flex;
     justify-content: space-between;

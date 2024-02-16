@@ -3,7 +3,7 @@ import ActionButton from "../UI/ActionButton/ActionButton";
 import {useNavigate} from "react-router-dom"
 import "./FinalStatus.css"
 import React, {useContext} from "react";
-import {DefaultContext} from "../../context/DefaultContext";
+import {DefaultContext} from "../../context";
 
 
 const FinalStatus=()=>{

@@ -64,7 +64,7 @@ const CardStage1=(props:{
         <div>
             <label className={"cp_card_label"}>Card Number</label>
             <div className={"cp_card_num"}>
-                <img src={Icons.masterCard}/>
+                <img className={"cp_card_img"} src={Icons.masterCard}/>
                 <input name={"cardNumber"}
                        onChange={handleCardUpdate}
                        type={"text"}

@@ -47,6 +47,11 @@
     margin-bottom: 12px;
 }
 
+.po_icons_img{
+    width: 16px;
+    height: 16px;
+}
+
 .balance{
     display: flex;
     justify-content: start;
